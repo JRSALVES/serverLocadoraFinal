@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.jrs.serverLocadoraFinal.Repository.FabricanteRepositoryCustomTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-01T21:49:49" hostname="fedora" time="3.667">
+  <properties/>
+  <testcase name="getAll()" classname="br.com.jrs.serverLocadoraFinal.Repository.FabricanteRepositoryCustomTest" time="3.667"/>
+  <system-out><![CDATA[18:49:33.904 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [br.com.jrs.serverLocadoraFinal.Repository.FabricanteRepositoryCustomTest]: FabricanteRepositoryCustomTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:49:34.686 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration br.com.jrs.serverLocadoraFinal.ServerLocadoraFinalApplication for test class br.com.jrs.serverLocadoraFinal.Repository.FabricanteRepositoryCustomTest
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.0)
+
+2024-06-01T18:49:36.955-03:00  INFO 40771 --- [serverLocadoraFinal] [    Test worker] b.c.j.s.R.FabricanteRepositoryCustomTest : Starting FabricanteRepositoryCustomTest using Java 17.0.11 with PID 40771 (started by jrs in /home/jrs/serverLocadoraFinal)
+2024-06-01T18:49:36.961-03:00  INFO 40771 --- [serverLocadoraFinal] [    Test worker] b.c.j.s.R.FabricanteRepositoryCustomTest : No active profile set, falling back to 1 default profile: "default"
+2024-06-01T18:49:40.221-03:00  INFO 40771 --- [serverLocadoraFinal] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-06-01T18:49:40.426-03:00  INFO 40771 --- [serverLocadoraFinal] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 189 ms. Found 3 JDBC repository interfaces.
+2024-06-01T18:49:42.017-03:00  INFO 40771 --- [serverLocadoraFinal] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-01T18:49:45.350-03:00  INFO 40771 --- [serverLocadoraFinal] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@9df564f
+2024-06-01T18:49:45.369-03:00  INFO 40771 --- [serverLocadoraFinal] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-01T18:49:49.507-03:00  INFO 40771 --- [serverLocadoraFinal] [    Test worker] b.c.j.s.R.FabricanteRepositoryCustomTest : Started FabricanteRepositoryCustomTest in 13.973 seconds (process running for 19.992)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
